@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ATQMAdSDK'
-  s.version          = '1.0.9'
+  s.version          = '1.0.9.1'
   s.summary          = 'Taku QMAdSDK'
   s.description      = '趣盟'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -21,9 +21,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.static_framework = true
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  
-  s.dependency 'AFNetworking'
-  s.dependency 'YYWebImage'
-  s.dependency 'YYImage/WebP'
-  
+    
 end
