@@ -1650,6 +1650,30 @@
           },
           {
             "kind": "Function",
+            "name": "checkIDFA",
+            "printedName": "checkIDFA()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QMAdSDK@objc(cs)QMAdSDKManager(cm)checkIDFA",
+            "mangledName": "$s7QMAdSDK0A10SDKManagerC9checkIDFASSyFZ",
+            "moduleName": "QMAdSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "sdkState",
             "printedName": "sdkState()",
             "children": [
@@ -1851,8 +1875,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMNativeAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -1888,8 +1913,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMNativeAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -1919,8 +1945,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMNativeAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -1950,8 +1977,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMNativeAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -1981,8 +2009,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMNativeAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -2389,6 +2418,112 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewController",
+            "printedName": "viewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIViewController?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QMAdSDK@objc(cs)QMNativeAd(py)viewController",
+            "mangledName": "$s7QMAdSDK10QMNativeAdC14viewControllerSo06UIViewF0CSgvp",
+            "moduleName": "QMAdSDK",
+            "declAttributes": [
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMNativeAd(im)viewController",
+                "mangledName": "$s7QMAdSDK10QMNativeAdC14viewControllerSo06UIViewF0CSgvg",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMNativeAd(im)setViewController:",
+                "mangledName": "$s7QMAdSDK10QMNativeAdC14viewControllerSo06UIViewF0CSgvs",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7QMAdSDK10QMNativeAdC14viewControllerSo06UIViewF0CSgvM",
+                "mangledName": "$s7QMAdSDK10QMNativeAdC14viewControllerSo06UIViewF0CSgvM",
+                "moduleName": "QMAdSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -3065,8 +3200,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMInterstitialAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -3110,8 +3246,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMInterstitialAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -3141,8 +3278,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMInterstitialAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -3172,8 +3310,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMInterstitialAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -3209,8 +3348,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMInterstitialAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -3240,8 +3380,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMInterstitialAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -3271,8 +3412,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMInterstitialAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -3308,8 +3450,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMInterstitialAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -3485,6 +3628,112 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewController",
+            "printedName": "viewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIViewController?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QMAdSDK@objc(cs)QMInterstitialAd(py)viewController",
+            "mangledName": "$s7QMAdSDK16QMInterstitialAdC14viewControllerSo06UIViewF0CSgvp",
+            "moduleName": "QMAdSDK",
+            "declAttributes": [
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMInterstitialAd(im)viewController",
+                "mangledName": "$s7QMAdSDK16QMInterstitialAdC14viewControllerSo06UIViewF0CSgvg",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMInterstitialAd(im)setViewController:",
+                "mangledName": "$s7QMAdSDK16QMInterstitialAdC14viewControllerSo06UIViewF0CSgvs",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7QMAdSDK16QMInterstitialAdC14viewControllerSo06UIViewF0CSgvM",
+                "mangledName": "$s7QMAdSDK16QMInterstitialAdC14viewControllerSo06UIViewF0CSgvM",
+                "moduleName": "QMAdSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -3984,8 +4233,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMSplashNativeAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -4029,8 +4279,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMSplashNativeAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -4060,8 +4311,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMSplashNativeAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -4091,8 +4343,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMSplashNativeAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -4128,8 +4381,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMSplashNativeAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -4255,6 +4509,112 @@
                 "declKind": "Accessor",
                 "usr": "s:7QMAdSDK16QMSplashNativeAdC8delegateAA0cdE8Delegate_pSgvM",
                 "mangledName": "$s7QMAdSDK16QMSplashNativeAdC8delegateAA0cdE8Delegate_pSgvM",
+                "moduleName": "QMAdSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewController",
+            "printedName": "viewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIViewController?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QMAdSDK@objc(cs)QMSplashNativeAd(py)viewController",
+            "mangledName": "$s7QMAdSDK16QMSplashNativeAdC14viewControllerSo06UIViewG0CSgvp",
+            "moduleName": "QMAdSDK",
+            "declAttributes": [
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMSplashNativeAd(im)viewController",
+                "mangledName": "$s7QMAdSDK16QMSplashNativeAdC14viewControllerSo06UIViewG0CSgvg",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMSplashNativeAd(im)setViewController:",
+                "mangledName": "$s7QMAdSDK16QMSplashNativeAdC14viewControllerSo06UIViewG0CSgvs",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7QMAdSDK16QMSplashNativeAdC14viewControllerSo06UIViewG0CSgvM",
+                "mangledName": "$s7QMAdSDK16QMSplashNativeAdC14viewControllerSo06UIViewG0CSgvM",
                 "moduleName": "QMAdSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5844,421 +6204,6 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "dialog",
-            "printedName": "dialog",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "QMAdSDK.QMDialog?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "QMDialog",
-                    "printedName": "QMAdSDK.QMDialog",
-                    "usr": "c:@M@QMAdSDK@objc(cs)QMDialog"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7QMAdSDK16QMDialogProtocolPAAE6dialogAA0C0CSgvp",
-            "mangledName": "$s7QMAdSDK16QMDialogProtocolPAAE6dialogAA0C0CSgvp",
-            "moduleName": "QMAdSDK",
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "QMAdSDK.QMDialog?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "QMDialog",
-                        "printedName": "QMAdSDK.QMDialog",
-                        "usr": "c:@M@QMAdSDK@objc(cs)QMDialog"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7QMAdSDK16QMDialogProtocolPAAE6dialogAA0C0CSgvg",
-                "mangledName": "$s7QMAdSDK16QMDialogProtocolPAAE6dialogAA0C0CSgvg",
-                "moduleName": "QMAdSDK",
-                "genericSig": "<τ_0_0 where τ_0_0 : QMAdSDK.QMDialogProtocol>",
-                "sugared_genericSig": "<Self where Self : QMAdSDK.QMDialogProtocol>",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "dialogContainer",
-            "printedName": "dialogContainer()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIView",
-                "printedName": "UIKit.UIView",
-                "usr": "c:objc(cs)UIView"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7QMAdSDK16QMDialogProtocolPAAE15dialogContainerSo6UIViewCyF",
-            "mangledName": "$s7QMAdSDK16QMDialogProtocolPAAE15dialogContainerSo6UIViewCyF",
-            "moduleName": "QMAdSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : QMAdSDK.QMDialogProtocol>",
-            "sugared_genericSig": "<Self where Self : QMAdSDK.QMDialogProtocol>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "willAppear",
-            "printedName": "willAppear()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7QMAdSDK16QMDialogProtocolPAAE10willAppearyyF",
-            "mangledName": "$s7QMAdSDK16QMDialogProtocolPAAE10willAppearyyF",
-            "moduleName": "QMAdSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : QMAdSDK.QMDialogProtocol>",
-            "sugared_genericSig": "<Self where Self : QMAdSDK.QMDialogProtocol>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didAppear",
-            "printedName": "didAppear()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7QMAdSDK16QMDialogProtocolPAAE9didAppearyyF",
-            "mangledName": "$s7QMAdSDK16QMDialogProtocolPAAE9didAppearyyF",
-            "moduleName": "QMAdSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : QMAdSDK.QMDialogProtocol>",
-            "sugared_genericSig": "<Self where Self : QMAdSDK.QMDialogProtocol>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dismissAppear",
-            "printedName": "dismissAppear()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7QMAdSDK16QMDialogProtocolPAAE13dismissAppearyyF",
-            "mangledName": "$s7QMAdSDK16QMDialogProtocolPAAE13dismissAppearyyF",
-            "moduleName": "QMAdSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : QMAdSDK.QMDialogProtocol>",
-            "sugared_genericSig": "<Self where Self : QMAdSDK.QMDialogProtocol>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dialogBackgroundColor",
-            "printedName": "dialogBackgroundColor()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7QMAdSDK16QMDialogProtocolPAAE21dialogBackgroundColorSo7UIColorCyF",
-            "mangledName": "$s7QMAdSDK16QMDialogProtocolPAAE21dialogBackgroundColorSo7UIColorCyF",
-            "moduleName": "QMAdSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : QMAdSDK.QMDialogProtocol>",
-            "sugared_genericSig": "<Self where Self : QMAdSDK.QMDialogProtocol>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dialogLevel",
-            "printedName": "dialogLevel()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "QMDialogLevel",
-                "printedName": "QMAdSDK.QMDialogLevel",
-                "usr": "s:7QMAdSDK13QMDialogLevelO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7QMAdSDK16QMDialogProtocolPAAE11dialogLevelAA0cF0OyF",
-            "mangledName": "$s7QMAdSDK16QMDialogProtocolPAAE11dialogLevelAA0cF0OyF",
-            "moduleName": "QMAdSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : QMAdSDK.QMDialogProtocol>",
-            "sugared_genericSig": "<Self where Self : QMAdSDK.QMDialogProtocol>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dialogDirection",
-            "printedName": "dialogDirection()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "QMDialogDirection",
-                "printedName": "QMAdSDK.QMDialogDirection",
-                "usr": "s:7QMAdSDK17QMDialogDirectionO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7QMAdSDK16QMDialogProtocolPAAE15dialogDirectionAA0cF0OyF",
-            "mangledName": "$s7QMAdSDK16QMDialogProtocolPAAE15dialogDirectionAA0cF0OyF",
-            "moduleName": "QMAdSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : QMAdSDK.QMDialogProtocol>",
-            "sugared_genericSig": "<Self where Self : QMAdSDK.QMDialogProtocol>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "slidingDisappearance",
-            "printedName": "slidingDisappearance()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7QMAdSDK16QMDialogProtocolPAAE20slidingDisappearanceSbyF",
-            "mangledName": "$s7QMAdSDK16QMDialogProtocolPAAE20slidingDisappearanceSbyF",
-            "moduleName": "QMAdSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : QMAdSDK.QMDialogProtocol>",
-            "sugared_genericSig": "<Self where Self : QMAdSDK.QMDialogProtocol>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clickFloatingLayerToCancel",
-            "printedName": "clickFloatingLayerToCancel()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7QMAdSDK16QMDialogProtocolPAAE26clickFloatingLayerToCancelSbyF",
-            "mangledName": "$s7QMAdSDK16QMDialogProtocolPAAE26clickFloatingLayerToCancelSbyF",
-            "moduleName": "QMAdSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : QMAdSDK.QMDialogProtocol>",
-            "sugared_genericSig": "<Self where Self : QMAdSDK.QMDialogProtocol>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dialogGesturePenetration",
-            "printedName": "dialogGesturePenetration()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7QMAdSDK16QMDialogProtocolPAAE24dialogGesturePenetrationSbyF",
-            "mangledName": "$s7QMAdSDK16QMDialogProtocolPAAE24dialogGesturePenetrationSbyF",
-            "moduleName": "QMAdSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : QMAdSDK.QMDialogProtocol>",
-            "sugared_genericSig": "<Self where Self : QMAdSDK.QMDialogProtocol>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "mayBeConflictingGestures",
-            "printedName": "mayBeConflictingGestures()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[UIKit.UIGestureRecognizer]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIGestureRecognizer",
-                    "printedName": "UIKit.UIGestureRecognizer",
-                    "usr": "c:objc(cs)UIGestureRecognizer"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7QMAdSDK16QMDialogProtocolPAAE24mayBeConflictingGesturesSaySo19UIGestureRecognizerCGyF",
-            "mangledName": "$s7QMAdSDK16QMDialogProtocolPAAE24mayBeConflictingGesturesSaySo19UIGestureRecognizerCGyF",
-            "moduleName": "QMAdSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : QMAdSDK.QMDialogProtocol>",
-            "sugared_genericSig": "<Self where Self : QMAdSDK.QMDialogProtocol>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "centerShowAnimate",
-            "printedName": "centerShowAnimate(animations:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Bool) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "typeAttributes": [
-                  "noescape"
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "typeAttributes": [
-                  "noescape"
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7QMAdSDK16QMDialogProtocolPAAE17centerShowAnimate10animations10completionyySbXE_yyXEtF",
-            "mangledName": "$s7QMAdSDK16QMDialogProtocolPAAE17centerShowAnimate10animations10completionyySbXE_yyXEtF",
-            "moduleName": "QMAdSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : QMAdSDK.QMDialogProtocol>",
-            "sugared_genericSig": "<Self where Self : QMAdSDK.QMDialogProtocol>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "centerDismissAnimate",
-            "printedName": "centerDismissAnimate(animations:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Bool) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "typeAttributes": [
-                  "noescape"
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "typeAttributes": [
-                  "noescape"
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7QMAdSDK16QMDialogProtocolPAAE20centerDismissAnimate10animations10completionyySbXE_yyXEtF",
-            "mangledName": "$s7QMAdSDK16QMDialogProtocolPAAE20centerDismissAnimate10animations10completionyySbXE_yyXEtF",
-            "moduleName": "QMAdSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : QMAdSDK.QMDialogProtocol>",
-            "sugared_genericSig": "<Self where Self : QMAdSDK.QMDialogProtocol>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -6279,672 +6224,6 @@
         "moduleName": "QMAdSDK",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "QMDialog",
-        "printedName": "QMDialog",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "container",
-            "printedName": "container",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@QMAdSDK@objc(cs)QMDialog(py)container",
-            "mangledName": "$s7QMAdSDK8QMDialogC9containerSo6UIViewCSgvp",
-            "moduleName": "QMAdSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "Custom",
-              "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl",
-              "Dynamic",
-              "ObjC"
-            ],
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIView?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIView",
-                        "printedName": "UIKit.UIView",
-                        "usr": "c:objc(cs)UIView"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@QMAdSDK@objc(cs)QMDialog(im)container",
-                "mangledName": "$s7QMAdSDK8QMDialogC9containerSo6UIViewCSgvg",
-                "moduleName": "QMAdSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIView?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIView",
-                        "printedName": "UIKit.UIView",
-                        "usr": "c:objc(cs)UIView"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@QMAdSDK@objc(cs)QMDialog(im)setContainer:",
-                "mangledName": "$s7QMAdSDK8QMDialogC9containerSo6UIViewCSgvs",
-                "moduleName": "QMAdSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(containerView:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "QMDialog",
-                "printedName": "QMAdSDK.QMDialog",
-                "usr": "c:@M@QMAdSDK@objc(cs)QMDialog"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIView",
-                "printedName": "UIKit.UIView",
-                "usr": "c:objc(cs)UIView"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:7QMAdSDK8QMDialogC13containerViewACSo6UIViewC_tcfc",
-            "mangledName": "$s7QMAdSDK8QMDialogC13containerViewACSo6UIViewC_tcfc",
-            "moduleName": "QMAdSDK",
-            "declAttributes": [
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(frame:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "QMDialog",
-                "printedName": "QMAdSDK.QMDialog",
-                "usr": "c:@M@QMAdSDK@objc(cs)QMDialog"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGRect",
-                "printedName": "CoreFoundation.CGRect",
-                "usr": "c:@S@CGRect"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@QMAdSDK@objc(cs)QMDialog(im)initWithFrame:",
-            "mangledName": "$s7QMAdSDK8QMDialogC5frameACSo6CGRectV_tcfc",
-            "moduleName": "QMAdSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithFrame:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "showDialog",
-            "printedName": "showDialog(view:direction:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "GenericTypeParam",
-                "printedName": "τ_0_0"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "QMAdSDK.QMDialogDirection?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "QMDialogDirection",
-                    "printedName": "QMAdSDK.QMDialogDirection",
-                    "usr": "s:7QMAdSDK17QMDialogDirectionO"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7QMAdSDK8QMDialogC10showDialog4view9direction10completionyx_AA0C9DirectionOSgyycSgtSo6UIViewCRbzAA0C8ProtocolRzlF",
-            "mangledName": "$s7QMAdSDK8QMDialogC10showDialog4view9direction10completionyx_AA0C9DirectionOSgyycSgtSo6UIViewCRbzAA0C8ProtocolRzlF",
-            "moduleName": "QMAdSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView, τ_0_0 : QMAdSDK.QMDialogProtocol>",
-            "sugared_genericSig": "<T where T : UIKit.UIView, T : QMAdSDK.QMDialogProtocol>",
-            "declAttributes": [
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "showDialog",
-            "printedName": "showDialog(controller:direction:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "GenericTypeParam",
-                "printedName": "τ_0_0"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "QMAdSDK.QMDialogDirection?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "QMDialogDirection",
-                    "printedName": "QMAdSDK.QMDialogDirection",
-                    "usr": "s:7QMAdSDK17QMDialogDirectionO"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7QMAdSDK8QMDialogC10showDialog10controller9direction10completionyx_AA0C9DirectionOSgyycSgtSo16UIViewControllerCRbzAA0C8ProtocolRzlF",
-            "mangledName": "$s7QMAdSDK8QMDialogC10showDialog10controller9direction10completionyx_AA0C9DirectionOSgyycSgtSo16UIViewControllerCRbzAA0C8ProtocolRzlF",
-            "moduleName": "QMAdSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIViewController, τ_0_0 : QMAdSDK.QMDialogProtocol>",
-            "sugared_genericSig": "<T where T : UIKit.UIViewController, T : QMAdSDK.QMDialogProtocol>",
-            "declAttributes": [
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "showDialog",
-            "printedName": "showDialog(proto:direction:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "QMDialogProtocol",
-                "printedName": "QMAdSDK.QMDialogProtocol",
-                "usr": "s:7QMAdSDK16QMDialogProtocolP"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "QMAdSDK.QMDialogDirection?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "QMDialogDirection",
-                    "printedName": "QMAdSDK.QMDialogDirection",
-                    "usr": "s:7QMAdSDK17QMDialogDirectionO"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7QMAdSDK8QMDialogC10showDialog5proto9direction10completionyAA0C8Protocol_p_AA0C9DirectionOSgyycSgtF",
-            "mangledName": "$s7QMAdSDK8QMDialogC10showDialog5proto9direction10completionyAA0C8Protocol_p_AA0C9DirectionOSgyycSgtF",
-            "moduleName": "QMAdSDK",
-            "declAttributes": [
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "updateLayoutAnimate",
-            "printedName": "updateLayoutAnimate(proto:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "QMDialogProtocol",
-                "printedName": "QMAdSDK.QMDialogProtocol",
-                "usr": "s:7QMAdSDK16QMDialogProtocolP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7QMAdSDK8QMDialogC19updateLayoutAnimate5protoyAA0C8Protocol_p_tF",
-            "mangledName": "$s7QMAdSDK8QMDialogC19updateLayoutAnimate5protoyAA0C8Protocol_p_tF",
-            "moduleName": "QMAdSDK",
-            "declAttributes": [
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dismissDialog",
-            "printedName": "dismissDialog()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@QMAdSDK@objc(cs)QMDialog(im)dismissDialog",
-            "mangledName": "$s7QMAdSDK8QMDialogC13dismissDialogyyF",
-            "moduleName": "QMAdSDK",
-            "declAttributes": [
-              "Custom",
-              "Dynamic",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dismissDialog",
-            "printedName": "dismissDialog(view:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIView",
-                "printedName": "UIKit.UIView",
-                "usr": "c:objc(cs)UIView"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@QMAdSDK@objc(cs)QMDialog(im)dismissDialogWithView:",
-            "mangledName": "$s7QMAdSDK8QMDialogC13dismissDialog4viewySo6UIViewC_tF",
-            "moduleName": "QMAdSDK",
-            "objc_name": "dismissDialogWithView:",
-            "declAttributes": [
-              "Custom",
-              "Dynamic",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dismissDialog",
-            "printedName": "dismissDialog(controller:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@QMAdSDK@objc(cs)QMDialog(im)dismissDialogWithController:",
-            "mangledName": "$s7QMAdSDK8QMDialogC13dismissDialog10controllerySo16UIViewControllerC_tF",
-            "moduleName": "QMAdSDK",
-            "objc_name": "dismissDialogWithController:",
-            "declAttributes": [
-              "Custom",
-              "Dynamic",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dismissAllDialog",
-            "printedName": "dismissAllDialog()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@QMAdSDK@objc(cs)QMDialog(im)dismissAllDialog",
-            "mangledName": "$s7QMAdSDK8QMDialogC16dismissAllDialogyyF",
-            "moduleName": "QMAdSDK",
-            "declAttributes": [
-              "Custom",
-              "Dynamic",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "gestureRecognizerShouldBegin",
-            "printedName": "gestureRecognizerShouldBegin(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIGestureRecognizer",
-                "printedName": "UIKit.UIGestureRecognizer",
-                "usr": "c:objc(cs)UIGestureRecognizer"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@QMAdSDK@objc(cs)QMDialog(im)gestureRecognizerShouldBegin:",
-            "mangledName": "$s7QMAdSDK8QMDialogC28gestureRecognizerShouldBeginySbSo09UIGestureE0CF",
-            "moduleName": "QMAdSDK",
-            "overriding": true,
-            "objc_name": "gestureRecognizerShouldBegin:",
-            "declAttributes": [
-              "ObjC",
-              "Custom",
-              "Override",
-              "AccessControl",
-              "Dynamic",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "gestureRecognizer",
-            "printedName": "gestureRecognizer(_:shouldRecognizeSimultaneouslyWith:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIGestureRecognizer",
-                "printedName": "UIKit.UIGestureRecognizer",
-                "usr": "c:objc(cs)UIGestureRecognizer"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIGestureRecognizer",
-                "printedName": "UIKit.UIGestureRecognizer",
-                "usr": "c:objc(cs)UIGestureRecognizer"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@QMAdSDK@objc(cs)QMDialog(im)gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:",
-            "mangledName": "$s7QMAdSDK8QMDialogC17gestureRecognizer_33shouldRecognizeSimultaneouslyWithSbSo09UIGestureE0C_AGtF",
-            "moduleName": "QMAdSDK",
-            "objc_name": "gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:",
-            "declAttributes": [
-              "ObjC",
-              "Custom",
-              "AccessControl",
-              "Dynamic"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@QMAdSDK@objc(cs)QMDialog",
-        "mangledName": "$s7QMAdSDK8QMDialogC",
-        "moduleName": "QMAdSDK",
-        "declAttributes": [
-          "Custom",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)UIControl",
-        "hasMissingDesignatedInitializers": true,
-        "superclassNames": [
-          "UIKit.UIControl",
-          "UIKit.UIView",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
         ]
       },
       {
@@ -7312,6 +6591,16 @@
       },
       {
         "kind": "Import",
+        "name": "OCHeader",
+        "printedName": "OCHeader",
+        "declKind": "Import",
+        "moduleName": "QMAdSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7429,6 +6718,23 @@
         "moduleName": "QMAdSDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QMAdSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "OCHeader",
+        "printedName": "OCHeader",
+        "declKind": "Import",
+        "moduleName": "QMAdSDK",
+        "declAttributes": [
+          "ImplementationOnly"
         ]
       },
       {
@@ -7618,6 +6924,96 @@
           },
           {
             "kind": "Var",
+            "name": "getDesc",
+            "printedName": "getDesc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QMAdSDK@objc(cs)QMAdMeta(py)getDesc",
+            "mangledName": "$s7QMAdSDK0A4MetaC7getDescSSvp",
+            "moduleName": "QMAdSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMAdMeta(im)getDesc",
+                "mangledName": "$s7QMAdSDK0A4MetaC7getDescSSvg",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logoUrl",
+            "printedName": "logoUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QMAdSDK@objc(cs)QMAdMeta(py)logoUrl",
+            "mangledName": "$s7QMAdSDK0A4MetaC7logoUrlSSvp",
+            "moduleName": "QMAdSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMAdMeta(im)logoUrl",
+                "mangledName": "$s7QMAdSDK0A4MetaC7logoUrlSSvg",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "getLandingPageUrl",
             "printedName": "getLandingPageUrl",
             "children": [
@@ -7708,8 +7104,8 @@
           },
           {
             "kind": "Var",
-            "name": "getImageUrls",
-            "printedName": "getImageUrls",
+            "name": "getInteractionTitle",
+            "printedName": "getInteractionTitle",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7719,8 +7115,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@QMAdSDK@objc(cs)QMAdMeta(py)getImageUrls",
-            "mangledName": "$s7QMAdSDK0A4MetaC12getImageUrlsSSvp",
+            "usr": "c:@M@QMAdSDK@objc(cs)QMAdMeta(py)getInteractionTitle",
+            "mangledName": "$s7QMAdSDK0A4MetaC19getInteractionTitleSSvp",
             "moduleName": "QMAdSDK",
             "declAttributes": [
               "AccessControl",
@@ -7741,8 +7137,98 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@QMAdSDK@objc(cs)QMAdMeta(im)getImageUrls",
-                "mangledName": "$s7QMAdSDK0A4MetaC12getImageUrlsSSvg",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMAdMeta(im)getInteractionTitle",
+                "mangledName": "$s7QMAdSDK0A4MetaC19getInteractionTitleSSvg",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "getMediaUrl",
+            "printedName": "getMediaUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QMAdSDK@objc(cs)QMAdMeta(py)getMediaUrl",
+            "mangledName": "$s7QMAdSDK0A4MetaC11getMediaUrlSSvp",
+            "moduleName": "QMAdSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMAdMeta(im)getMediaUrl",
+                "mangledName": "$s7QMAdSDK0A4MetaC11getMediaUrlSSvg",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "getMediaMute",
+            "printedName": "getMediaMute",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QMAdSDK@objc(cs)QMAdMeta(py)getMediaMute",
+            "mangledName": "$s7QMAdSDK0A4MetaC12getMediaMuteSbvp",
+            "moduleName": "QMAdSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMAdMeta(im)getMediaMute",
+                "mangledName": "$s7QMAdSDK0A4MetaC12getMediaMuteSbvg",
                 "moduleName": "QMAdSDK",
                 "declAttributes": [
                   "ObjC"
@@ -8004,6 +7490,67 @@
           },
           {
             "kind": "Var",
+            "name": "getExtUrls",
+            "printedName": "getExtUrls",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QMAdSDK@objc(cs)QMAdMeta(py)getExtUrls",
+            "mangledName": "$s7QMAdSDK0A4MetaC10getExtUrlsSaySSGvp",
+            "moduleName": "QMAdSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMAdMeta(im)getExtUrls",
+                "mangledName": "$s7QMAdSDK0A4MetaC10getExtUrlsSaySSGvg",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "getMaterialType",
             "printedName": "getMaterialType",
             "children": [
@@ -8250,8 +7797,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMFeedAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -8295,8 +7843,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMFeedAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -8334,8 +7883,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMFeedAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -8373,8 +7923,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMFeedAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -8412,8 +7963,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMFeedAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -8451,8 +8003,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMFeedAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -8628,6 +8181,112 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewController",
+            "printedName": "viewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIViewController?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QMAdSDK@objc(cs)QMFeedAd(py)viewController",
+            "mangledName": "$s7QMAdSDK8QMFeedAdC14viewControllerSo06UIViewF0CSgvp",
+            "moduleName": "QMAdSDK",
+            "declAttributes": [
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMFeedAd(im)viewController",
+                "mangledName": "$s7QMAdSDK8QMFeedAdC14viewControllerSo06UIViewF0CSgvg",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMFeedAd(im)setViewController:",
+                "mangledName": "$s7QMAdSDK8QMFeedAdC14viewControllerSo06UIViewF0CSgvs",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7QMAdSDK8QMFeedAdC14viewControllerSo06UIViewF0CSgvM",
+                "mangledName": "$s7QMAdSDK8QMFeedAdC14viewControllerSo06UIViewF0CSgvM",
+                "moduleName": "QMAdSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -9461,8 +9120,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMSplashAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -9506,8 +9166,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMSplashAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -9537,8 +9198,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMSplashAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -9568,8 +9230,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMSplashAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -9605,8 +9268,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMSplashAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -9642,8 +9306,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMSplashAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -9819,6 +9484,112 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewController",
+            "printedName": "viewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIViewController?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QMAdSDK@objc(cs)QMSplashAd(py)viewController",
+            "mangledName": "$s7QMAdSDK10QMSplashAdC14viewControllerSo06UIViewF0CSgvp",
+            "moduleName": "QMAdSDK",
+            "declAttributes": [
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMSplashAd(im)viewController",
+                "mangledName": "$s7QMAdSDK10QMSplashAdC14viewControllerSo06UIViewF0CSgvg",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMSplashAd(im)setViewController:",
+                "mangledName": "$s7QMAdSDK10QMSplashAdC14viewControllerSo06UIViewF0CSgvs",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7QMAdSDK10QMSplashAdC14viewControllerSo06UIViewF0CSgvM",
+                "mangledName": "$s7QMAdSDK10QMSplashAdC14viewControllerSo06UIViewF0CSgvM",
+                "moduleName": "QMAdSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -10937,119 +10708,6 @@
                 "declKind": "Accessor",
                 "usr": "s:7QMAdSDK0A16SDKConfigurationC5appIdSSSgvM",
                 "mangledName": "$s7QMAdSDK0A16SDKConfigurationC5appIdSSSgvM",
-                "moduleName": "QMAdSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "userId",
-            "printedName": "userId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@QMAdSDK@objc(cs)QMAdSDKConfiguration(py)userId",
-            "mangledName": "$s7QMAdSDK0A16SDKConfigurationC6userIdSSSgvp",
-            "moduleName": "QMAdSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@QMAdSDK@objc(cs)QMAdSDKConfiguration(im)userId",
-                "mangledName": "$s7QMAdSDK0A16SDKConfigurationC6userIdSSSgvg",
-                "moduleName": "QMAdSDK",
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@QMAdSDK@objc(cs)QMAdSDKConfiguration(im)setUserId:",
-                "mangledName": "$s7QMAdSDK0A16SDKConfigurationC6userIdSSSgvs",
-                "moduleName": "QMAdSDK",
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7QMAdSDK0A16SDKConfigurationC6userIdSSSgvM",
-                "mangledName": "$s7QMAdSDK0A16SDKConfigurationC6userIdSSSgvM",
                 "moduleName": "QMAdSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -12435,8 +12093,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMRewardedVideoAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -12480,8 +12139,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMRewardedVideoAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -12511,8 +12171,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMRewardedVideoAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -12542,8 +12203,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMRewardedVideoAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -12579,8 +12241,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMRewardedVideoAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -12610,8 +12273,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMRewardedVideoAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -12641,8 +12305,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMRewardedVideoAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -12678,8 +12343,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMRewardedVideoAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -12721,8 +12387,9 @@
             "sugared_genericSig": "<Self where Self : QMAdSDK.QMRewardedVideoAdDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -12898,6 +12565,112 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewController",
+            "printedName": "viewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIViewController?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QMAdSDK@objc(cs)QMRewardedVideoAd(py)viewController",
+            "mangledName": "$s7QMAdSDK17QMRewardedVideoAdC14viewControllerSo06UIViewG0CSgvp",
+            "moduleName": "QMAdSDK",
+            "declAttributes": [
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMRewardedVideoAd(im)viewController",
+                "mangledName": "$s7QMAdSDK17QMRewardedVideoAdC14viewControllerSo06UIViewG0CSgvg",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMRewardedVideoAd(im)setViewController:",
+                "mangledName": "$s7QMAdSDK17QMRewardedVideoAdC14viewControllerSo06UIViewG0CSgvs",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7QMAdSDK17QMRewardedVideoAdC14viewControllerSo06UIViewG0CSgvM",
+                "mangledName": "$s7QMAdSDK17QMRewardedVideoAdC14viewControllerSo06UIViewG0CSgvM",
+                "moduleName": "QMAdSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -13496,63 +13269,63 @@
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/view\/QMRewardedVideoView.swift",
       "kind": "FloatLiteral",
-      "offset": 1413,
+      "offset": 1298,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/view\/QMRewardedVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1463,
+      "offset": 1348,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/view\/QMRewardedVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1575,
+      "offset": 1460,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/view\/QMRewardedVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1610,
+      "offset": 1495,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/view\/QMRewardedVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1803,
+      "offset": 1688,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/view\/QMRewardedVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1969,
+      "offset": 1854,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/view\/QMRewardedVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 2009,
+      "offset": 1894,
       "length": 15,
       "value": "\"qm_video_mute\""
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/view\/QMRewardedVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 2076,
+      "offset": 1961,
       "length": 16,
       "value": "\"qm_video_sound\""
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/view\/QMRewardedVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 5874,
+      "offset": 5295,
       "length": 25,
       "value": "\"QMRewardedVideoViewIdfa\""
     },
@@ -13699,14 +13472,14 @@
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 709,
+      "offset": 779,
       "length": 15,
       "value": "\"QMAdSDK.QMNativeAdProxy\""
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 2098,
+      "offset": 2173,
       "length": 10,
       "value": "\"QMAdSDK.QMNativeAd\""
     },
@@ -14090,15 +13863,50 @@
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMInterstitialAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1677,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMInterstitialAd.swift",
       "kind": "StringLiteral",
-      "offset": 1409,
+      "offset": 1864,
+      "length": 10,
+      "value": "\"is_swift\""
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMInterstitialAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1885,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMInterstitialAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1893,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMInterstitialAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1976,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMInterstitialAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1528,
       "length": 16,
       "value": "\"QMAdSDK.QMInterstitialAd\""
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMSplashNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 784,
+      "offset": 854,
       "length": 16,
       "value": "\"QMAdSDK.QMSplashNativeAd\""
     },
@@ -14175,7 +13983,7 @@
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Interstitial\/viewModel\/QMInterstitialViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7137,
+      "offset": 7604,
       "length": 25,
       "value": "\"QMInterstitialViewModel\""
     },
@@ -14343,16 +14151,9 @@
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Dialog\/QMDialog.swift",
       "kind": "StringLiteral",
-      "offset": 1021,
+      "offset": 1014,
       "length": 8,
       "value": "\"QMAdSDK.QMDialog\""
-    },
-    {
-      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/QMExtension\/UIImageView+QM.swift",
-      "kind": "Array",
-      "offset": 322,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/QMExtension\/UIFont+QM.swift",
@@ -14545,50 +14346,57 @@
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Splash\/view\/QMSplashView.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 12,
+      "value": "\"qm_logo_ad\""
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Splash\/view\/QMSplashView.swift",
       "kind": "FloatLiteral",
-      "offset": 548,
+      "offset": 625,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Splash\/view\/QMSplashView.swift",
       "kind": "IntegerLiteral",
-      "offset": 598,
+      "offset": 675,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Splash\/view\/QMSplashView.swift",
       "kind": "IntegerLiteral",
-      "offset": 710,
+      "offset": 787,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Splash\/view\/QMSplashView.swift",
       "kind": "BooleanLiteral",
-      "offset": 745,
+      "offset": 822,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Splash\/view\/QMSplashView.swift",
       "kind": "BooleanLiteral",
-      "offset": 771,
+      "offset": 848,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Splash\/view\/QMSplashView.swift",
       "kind": "BooleanLiteral",
-      "offset": 964,
+      "offset": 1041,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Splash\/view\/QMSplashView.swift",
       "kind": "StringLiteral",
-      "offset": 3345,
+      "offset": 3768,
       "length": 14,
       "value": "\"QMSplashView\""
     },
@@ -14619,6 +14427,13 @@
       "offset": 5825,
       "length": 44,
       "value": "[\"pdp_ip0\", \"pdp_ip1\", \"pdp_ip2\", \"pdp_ip3\"]"
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Splash\/viewModel\/QMSplashViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 963,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Splash\/viewModel\/QMSplashViewModel.swift",
@@ -14707,21 +14522,21 @@
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMMeta.swift",
       "kind": "StringLiteral",
-      "offset": 121,
+      "offset": 171,
       "length": 8,
       "value": "\"QMAdSDK.QMAdMeta\""
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMFeedAd.swift",
       "kind": "StringLiteral",
-      "offset": 746,
+      "offset": 836,
       "length": 13,
       "value": "\"QMAdSDK.QMFeedAdProxy\""
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMFeedAd.swift",
       "kind": "StringLiteral",
-      "offset": 2256,
+      "offset": 2352,
       "length": 8,
       "value": "\"QMAdSDK.QMFeedAd\""
     },
@@ -14783,8 +14598,43 @@
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMSplashAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1417,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMSplashAd.swift",
       "kind": "StringLiteral",
-      "offset": 1099,
+      "offset": 1604,
+      "length": 10,
+      "value": "\"is_swift\""
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMSplashAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1625,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMSplashAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1633,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMSplashAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1716,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMSplashAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1189,
       "length": 10,
       "value": "\"QMAdSDK.QMSplashAd\""
     },
@@ -14903,7 +14753,7 @@
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/viewModel\/QMRewardedVideoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 10284,
+      "offset": 10735,
       "length": 30,
       "value": "\"QMRewardedVideoViewModelidfa\""
     },
@@ -15274,21 +15124,21 @@
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Util\/QMCrashReporter.swift",
       "kind": "StringLiteral",
-      "offset": 4350,
+      "offset": 4522,
       "length": 28,
       "value": "\"qm_crash_stack_report.json\""
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Util\/QMCrashReporter.swift",
       "kind": "StringLiteral",
-      "offset": 4407,
+      "offset": 4579,
       "length": 4,
       "value": "\"qm\""
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Util\/QMCrashReporter.swift",
       "kind": "StringLiteral",
-      "offset": 4440,
+      "offset": 4612,
       "length": 4,
       "value": "\"lr\""
     },
@@ -15364,8 +15214,43 @@
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMRewardedVideoAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1964,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMRewardedVideoAd.swift",
       "kind": "StringLiteral",
-      "offset": 1678,
+      "offset": 2151,
+      "length": 10,
+      "value": "\"is_swift\""
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 2172,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 2180,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMRewardedVideoAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2263,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1813,
       "length": 17,
       "value": "\"QMAdSDK.QMRewardedVideoAd\""
     },

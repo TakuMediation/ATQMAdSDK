@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/QMAdSDK-Swift.h</key>
 		<data>
-		1/VdXSrTNXEzUW+SFVcHxlPcLTM=
+		XZIlsH5JPwKKbFXK9HT6Mb/bw7s=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,23 +14,23 @@
 		</data>
 		<key>Modules/QMAdSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		JE5kzxVdKj3y52yIZ8dEwSEkHzA=
+		CQ4DBBj+3mCGbdJxCKo7Exa04ms=
 		</data>
 		<key>Modules/QMAdSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		rYP2oh++l+h6NfpJ7s3Lr4RLjcw=
+		0XNMWJe6eI5rgaXAD74anHiLqiw=
 		</data>
 		<key>Modules/QMAdSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		6zoUaSBkfXQmuj2YemEW+SGp+hA=
+		GcbJl/7J2altreXxuMgXhM5MvEg=
 		</data>
 		<key>Modules/QMAdSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		rYP2oh++l+h6NfpJ7s3Lr4RLjcw=
+		0XNMWJe6eI5rgaXAD74anHiLqiw=
 		</data>
 		<key>Modules/QMAdSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		A9qxpwQHS9XtoQ+pseV5rb5m1ws=
+		Kc2ShALHn5/M55kv37M5JKFZGxg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -38,15 +38,11 @@
 		</data>
 		<key>QMAdBundle.bundle/Info.plist</key>
 		<data>
-		+qjQlHIPVOspanU7QpDeM/p5++s=
-		</data>
-		<key>QMAdBundle.bundle/QMAdBundle</key>
-		<data>
-		ckZoPEz2qE1zy4yBL+9TXbiMbes=
+		C3Bv1XwFC/QFcRBVsVdaoTa6vTQ=
 		</data>
 		<key>QMAdBundle.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		4yilIDo/y1dzE5zGSY3hcSPeRNo=
+		UROAwFpuThk7OF+IrTyH+AOOZY4=
 		</data>
 		<key>QMAdBundle.bundle/qm_arrow_white.png</key>
 		<data>
@@ -112,6 +108,10 @@
 		<data>
 		OsJ1CsFiixcSn+p7ITxA2lbcymk=
 		</data>
+		<key>QMAdBundle.bundle/sdk_info</key>
+		<data>
+		jyb8Ceh9NSUcZwBg1RcqgyIqDEw=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -119,42 +119,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6AgqewDfRqX4yzyChFyWeZrJSUAye7SHQePgVtLzh9E=
+			JdO1MCziglEnc9bDPL38BOSdLJwZhVIpUsRJYMq0Ct8=
 			</data>
 		</dict>
 		<key>Modules/QMAdSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JQ3Dr6dYaOwFU6xtfXe5yV0xTWFOtHESaVZN0RF6BO4=
+			nobWlqW2BNtRIFqmgZ7kgQeq5SyN2oyaRIMvMnv5Nw8=
 			</data>
 		</dict>
 		<key>Modules/QMAdSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TlQRU8z/NaX3tp2ULFUl7wpx7uRqlzUe2FhxSmPYsDo=
+			AsY7VVq7e4fUKaZfKye2dNlDUCZdLOK2rQ5b9F34QCU=
 			</data>
 		</dict>
 		<key>Modules/QMAdSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9JP+y8R3C3FXP050FrIkEjuiOdavh1scTDJJTVRlhRE=
+			1zlBWGMIGogdpTd+KrMDddq/dfZ6+AbZ9ROUBqA890A=
 			</data>
 		</dict>
 		<key>Modules/QMAdSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TlQRU8z/NaX3tp2ULFUl7wpx7uRqlzUe2FhxSmPYsDo=
+			AsY7VVq7e4fUKaZfKye2dNlDUCZdLOK2rQ5b9F34QCU=
 			</data>
 		</dict>
 		<key>Modules/QMAdSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			plmZhCWjqLqFGoSTYU4RV0iAL3HRvDLt5JKaCnuuzwU=
+			rzMeOn9cYxPNLL7NiZSQyxLwuU6Hm9MXabBmRV0XOrg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -168,21 +168,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jpe+GoLQDvbR2RQsq1sCbis0OJwHJTjX+2Dj6dTu1MM=
-			</data>
-		</dict>
-		<key>QMAdBundle.bundle/QMAdBundle</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yxNovIaEaRg6wwzcHJrEQ6llkc/y0p86IECFHQ0EC2g=
+			79WVWZTvdvqF1GAv6s+VfV/kH8EnjhmiK3yYl+REEiA=
 			</data>
 		</dict>
 		<key>QMAdBundle.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EuM5HZlC8u8nid6SsTovI5LSExpVAP4ZCRWpMZtYJ2A=
+			59PdvHMi8pwJ6oUUyOBq6+gOVu9DdudUqTquyvPWt+Q=
 			</data>
 		</dict>
 		<key>QMAdBundle.bundle/qm_arrow_white.png</key>
@@ -295,6 +288,13 @@
 			<key>hash2</key>
 			<data>
 			NNEv8483c+8d6dBx2WI5WJz34g4Ybx08Twn5+KAruuA=
+			</data>
+		</dict>
+		<key>QMAdBundle.bundle/sdk_info</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0EU9CGgY2Yc7Vqr3MDd4EG+aN/blw196+P5D3ADLc9Q=
 			</data>
 		</dict>
 	</dict>

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/QMAdSDK-Swift.h</key>
 		<data>
-		3Q2l2soJhipaZNZWKf7j7Y140zk=
+		MF2sWyKhg6gZp6Rk07VZK3Mc/5M=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,23 +14,23 @@
 		</data>
 		<key>Modules/QMAdSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		JE5kzxVdKj3y52yIZ8dEwSEkHzA=
+		CQ4DBBj+3mCGbdJxCKo7Exa04ms=
 		</data>
 		<key>Modules/QMAdSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9r2voV39WSWitQkcYnJfLrfPr9g=
+		lpqWnU+zbumKF6U9fdF5KIDV+Qc=
 		</data>
 		<key>Modules/QMAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Jw+gaQXkrbwkfCw8fUL6erl7vRI=
+		i1JkTd2gZqIQoe5f1eK4hlsLkpE=
 		</data>
 		<key>Modules/QMAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9r2voV39WSWitQkcYnJfLrfPr9g=
+		lpqWnU+zbumKF6U9fdF5KIDV+Qc=
 		</data>
 		<key>Modules/QMAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rnZIgyLM3gDdRrP8xRyf7Rkjw58=
+		PBmpXAfibRwOybwTXgkfO2iE+Ew=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -38,15 +38,11 @@
 		</data>
 		<key>QMAdBundle.bundle/Info.plist</key>
 		<data>
-		+qjQlHIPVOspanU7QpDeM/p5++s=
-		</data>
-		<key>QMAdBundle.bundle/QMAdBundle</key>
-		<data>
-		ckZoPEz2qE1zy4yBL+9TXbiMbes=
+		C3Bv1XwFC/QFcRBVsVdaoTa6vTQ=
 		</data>
 		<key>QMAdBundle.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		4yilIDo/y1dzE5zGSY3hcSPeRNo=
+		UROAwFpuThk7OF+IrTyH+AOOZY4=
 		</data>
 		<key>QMAdBundle.bundle/qm_arrow_white.png</key>
 		<data>
@@ -112,6 +108,10 @@
 		<data>
 		OsJ1CsFiixcSn+p7ITxA2lbcymk=
 		</data>
+		<key>QMAdBundle.bundle/sdk_info</key>
+		<data>
+		jyb8Ceh9NSUcZwBg1RcqgyIqDEw=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -119,42 +119,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jPNhQ4asseCTDHVEE9Z6Y2zUjihqWKiolrLkJkbnfyo=
+			D7tUc2t5XBn91amQ9CF6so4FeWlMO3lJgHh0K145/T4=
 			</data>
 		</dict>
 		<key>Modules/QMAdSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JQ3Dr6dYaOwFU6xtfXe5yV0xTWFOtHESaVZN0RF6BO4=
+			nobWlqW2BNtRIFqmgZ7kgQeq5SyN2oyaRIMvMnv5Nw8=
 			</data>
 		</dict>
 		<key>Modules/QMAdSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LO8182Msi03jzXIggnhxNigvlPnWOg3ehzUtNFWKVBY=
+			B3uQyoaptFBwm3Zh2jIdUIZPPpWJ6OFhWYT6RCauTrw=
 			</data>
 		</dict>
 		<key>Modules/QMAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			827Oyk+dXf8fCDA6DmnggZ9KEbY2V3cNEndf96BEnVE=
+			lqMiY9ESlx9a6FWnkVS72151MpLMiYfS6XIHKR523UY=
 			</data>
 		</dict>
 		<key>Modules/QMAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LO8182Msi03jzXIggnhxNigvlPnWOg3ehzUtNFWKVBY=
+			B3uQyoaptFBwm3Zh2jIdUIZPPpWJ6OFhWYT6RCauTrw=
 			</data>
 		</dict>
 		<key>Modules/QMAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ITjMKUS/UZjsWzBYrKnoQFgHA2exseN2rmZU56VRdYc=
+			xtCdR9eVN2dl6aDNUNTncEVT0gGvX5yLgtdnGWSV8w8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -168,21 +168,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jpe+GoLQDvbR2RQsq1sCbis0OJwHJTjX+2Dj6dTu1MM=
-			</data>
-		</dict>
-		<key>QMAdBundle.bundle/QMAdBundle</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yxNovIaEaRg6wwzcHJrEQ6llkc/y0p86IECFHQ0EC2g=
+			79WVWZTvdvqF1GAv6s+VfV/kH8EnjhmiK3yYl+REEiA=
 			</data>
 		</dict>
 		<key>QMAdBundle.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EuM5HZlC8u8nid6SsTovI5LSExpVAP4ZCRWpMZtYJ2A=
+			59PdvHMi8pwJ6oUUyOBq6+gOVu9DdudUqTquyvPWt+Q=
 			</data>
 		</dict>
 		<key>QMAdBundle.bundle/qm_arrow_white.png</key>
@@ -295,6 +288,13 @@
 			<key>hash2</key>
 			<data>
 			NNEv8483c+8d6dBx2WI5WJz34g4Ybx08Twn5+KAruuA=
+			</data>
+		</dict>
+		<key>QMAdBundle.bundle/sdk_info</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0EU9CGgY2Yc7Vqr3MDd4EG+aN/blw196+P5D3ADLc9Q=
 			</data>
 		</dict>
 	</dict>
