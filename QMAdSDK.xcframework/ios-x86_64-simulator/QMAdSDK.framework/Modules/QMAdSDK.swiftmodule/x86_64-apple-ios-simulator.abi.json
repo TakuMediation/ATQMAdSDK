@@ -14842,6 +14842,13 @@
       "value": "\"QMAdSDK.QMInterstitialAdProxy\""
     },
     {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/CommonUI\/QMMediaImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 777,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/QMExtension\/UIColor+QM.swift",
       "kind": "StringLiteral",
       "offset": 231,

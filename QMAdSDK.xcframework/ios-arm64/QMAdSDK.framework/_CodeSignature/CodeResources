@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/QMAdSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		CQ4DBBj+3mCGbdJxCKo7Exa04ms=
+		fH8TL4pi/dpu0R0olgkvdmLa9B8=
 		</data>
 		<key>Modules/QMAdSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/QMAdSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Kc2ShALHn5/M55kv37M5JKFZGxg=
+		8l9BDhzKOyIKb31g6vylt9Rx6k0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>QMAdBundle.bundle/sdk_info</key>
 		<data>
-		jyb8Ceh9NSUcZwBg1RcqgyIqDEw=
+		VnMCYkG3ZUmvBeiKiYYKUuuMFFU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -126,7 +126,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nobWlqW2BNtRIFqmgZ7kgQeq5SyN2oyaRIMvMnv5Nw8=
+			l6+VX8BPBdRFPherX2NKL9WmMov6LrQcNQClIz3/TtQ=
 			</data>
 		</dict>
 		<key>Modules/QMAdSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -154,7 +154,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rzMeOn9cYxPNLL7NiZSQyxLwuU6Hm9MXabBmRV0XOrg=
+			wASLkd6EPR40BhpBW+M4PuIm/K8ytPtqWuy5QFdJisg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -294,7 +294,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0EU9CGgY2Yc7Vqr3MDd4EG+aN/blw196+P5D3ADLc9Q=
+			aDTFXo41l9/qZxVX9r2ItabpdDVzyhc3JBSs87ph9zY=
 			</data>
 		</dict>
 	</dict>
