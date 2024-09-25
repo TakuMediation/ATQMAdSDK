@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ATQMAdSDK'
-  s.version          = '1.0.9.05.01'
+  s.version          = '1.0.9.05.02'
   s.summary          = 'Taku QMAdSDK'
   s.description      = '趣盟'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
