@@ -142,6 +142,10 @@ import _SwiftConcurrencyShims
 }
 @objc @objcMembers public class QMInterstitialAd : ObjectiveC.NSObject {
   @objc weak public var delegate: (any QMAdSDK.QMInterstitialAdDelegate)?
+  @objc public var adClickToCloseAutomatically: Swift.Bool {
+    @objc get
+    @objc set
+  }
   @objc @available(*, deprecated, message: "Use meta.")
   public var ecpm: Swift.Int {
     @objc get
@@ -362,6 +366,10 @@ public protocol QMDialogProtocol : AnyObject {
 }
 @objc @objcMembers public class QMSplashAd : ObjectiveC.NSObject {
   @objc weak public var delegate: (any QMAdSDK.QMSplashAdDelegate)?
+  @objc public var adClickToCloseAutomatically: Swift.Bool {
+    @objc get
+    @objc set
+  }
   @objc @available(*, deprecated, message: "Use meta.")
   public var ecpm: Swift.Int {
     @objc get
@@ -463,6 +471,10 @@ extension QMAdSDK.QMSplashAd {
 }
 @objc @objcMembers open class QMRewardedVideoAd : ObjectiveC.NSObject {
   @objc weak public var delegate: (any QMAdSDK.QMRewardedVideoAdDelegate)?
+  @objc public var adClickToCloseAutomatically: Swift.Bool {
+    @objc get
+    @objc set
+  }
   @objc @available(*, deprecated, message: "Use meta.")
   public var ecpm: Swift.Int {
     @objc get

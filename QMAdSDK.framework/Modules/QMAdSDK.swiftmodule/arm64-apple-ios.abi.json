@@ -3586,6 +3586,95 @@
           },
           {
             "kind": "Var",
+            "name": "adClickToCloseAutomatically",
+            "printedName": "adClickToCloseAutomatically",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QMAdSDK@objc(cs)QMInterstitialAd(py)adClickToCloseAutomatically",
+            "mangledName": "$s7QMAdSDK16QMInterstitialAdC27adClickToCloseAutomaticallySbvp",
+            "moduleName": "QMAdSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMInterstitialAd(im)adClickToCloseAutomatically",
+                "mangledName": "$s7QMAdSDK16QMInterstitialAdC27adClickToCloseAutomaticallySbvg",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMInterstitialAd(im)setAdClickToCloseAutomatically:",
+                "mangledName": "$s7QMAdSDK16QMInterstitialAdC27adClickToCloseAutomaticallySbvs",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7QMAdSDK16QMInterstitialAdC27adClickToCloseAutomaticallySbvM",
+                "mangledName": "$s7QMAdSDK16QMInterstitialAdC27adClickToCloseAutomaticallySbvM",
+                "moduleName": "QMAdSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "ecpm",
             "printedName": "ecpm",
             "children": [
@@ -9442,6 +9531,95 @@
           },
           {
             "kind": "Var",
+            "name": "adClickToCloseAutomatically",
+            "printedName": "adClickToCloseAutomatically",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QMAdSDK@objc(cs)QMSplashAd(py)adClickToCloseAutomatically",
+            "mangledName": "$s7QMAdSDK10QMSplashAdC27adClickToCloseAutomaticallySbvp",
+            "moduleName": "QMAdSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMSplashAd(im)adClickToCloseAutomatically",
+                "mangledName": "$s7QMAdSDK10QMSplashAdC27adClickToCloseAutomaticallySbvg",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMSplashAd(im)setAdClickToCloseAutomatically:",
+                "mangledName": "$s7QMAdSDK10QMSplashAdC27adClickToCloseAutomaticallySbvs",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7QMAdSDK10QMSplashAdC27adClickToCloseAutomaticallySbvM",
+                "mangledName": "$s7QMAdSDK10QMSplashAdC27adClickToCloseAutomaticallySbvM",
+                "moduleName": "QMAdSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "ecpm",
             "printedName": "ecpm",
             "children": [
@@ -12523,6 +12701,95 @@
           },
           {
             "kind": "Var",
+            "name": "adClickToCloseAutomatically",
+            "printedName": "adClickToCloseAutomatically",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QMAdSDK@objc(cs)QMRewardedVideoAd(py)adClickToCloseAutomatically",
+            "mangledName": "$s7QMAdSDK17QMRewardedVideoAdC27adClickToCloseAutomaticallySbvp",
+            "moduleName": "QMAdSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMRewardedVideoAd(im)adClickToCloseAutomatically",
+                "mangledName": "$s7QMAdSDK17QMRewardedVideoAdC27adClickToCloseAutomaticallySbvg",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QMAdSDK@objc(cs)QMRewardedVideoAd(im)setAdClickToCloseAutomatically:",
+                "mangledName": "$s7QMAdSDK17QMRewardedVideoAdC27adClickToCloseAutomaticallySbvs",
+                "moduleName": "QMAdSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7QMAdSDK17QMRewardedVideoAdC27adClickToCloseAutomaticallySbvM",
+                "mangledName": "$s7QMAdSDK17QMRewardedVideoAdC27adClickToCloseAutomaticallySbvM",
+                "moduleName": "QMAdSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "ecpm",
             "printedName": "ecpm",
             "children": [
@@ -13254,6 +13521,13 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Splash\/controller\/QMSplashViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 262,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Splash\/controller\/QMSplashViewController.swift",
       "kind": "StringLiteral",
       "offset": 143,
       "length": 22,
@@ -13262,7 +13536,7 @@
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Splash\/controller\/QMSplashViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1851,
+      "offset": 1945,
       "length": 24,
       "value": "\"QMSplashViewController\""
     },
@@ -13864,35 +14138,35 @@
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMInterstitialAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1677,
+      "offset": 1682,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMInterstitialAd.swift",
       "kind": "StringLiteral",
-      "offset": 1864,
+      "offset": 1869,
       "length": 10,
       "value": "\"is_swift\""
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMInterstitialAd.swift",
       "kind": "StringLiteral",
-      "offset": 1885,
+      "offset": 1890,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMInterstitialAd.swift",
       "kind": "StringLiteral",
-      "offset": 1893,
+      "offset": 1898,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Public\/QMInterstitialAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1976,
+      "offset": 1981,
       "length": 4,
       "value": "true"
     },
@@ -13912,64 +14186,71 @@
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Interstitial\/viewModel\/QMInterstitialViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 799,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Interstitial\/viewModel\/QMInterstitialViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1170,
+      "offset": 1253,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Interstitial\/viewModel\/QMInterstitialViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1545,
+      "offset": 1628,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Interstitial\/viewModel\/QMInterstitialViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1759,
+      "offset": 1842,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Interstitial\/viewModel\/QMInterstitialViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1794,
+      "offset": 1877,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Interstitial\/viewModel\/QMInterstitialViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1837,
+      "offset": 1920,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Interstitial\/viewModel\/QMInterstitialViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1945,
+      "offset": 2028,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Interstitial\/viewModel\/QMInterstitialViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1987,
+      "offset": 2070,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Interstitial\/viewModel\/QMInterstitialViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2081,
+      "offset": 2164,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Interstitial\/viewModel\/QMInterstitialViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 2093,
+      "offset": 2176,
       "length": 4,
       "value": "-4.5"
     },
@@ -13983,7 +14264,7 @@
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Interstitial\/viewModel\/QMInterstitialViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7604,
+      "offset": 8245,
       "length": 25,
       "value": "\"QMInterstitialViewModel\""
     },
@@ -14437,6 +14718,13 @@
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Splash\/viewModel\/QMSplashViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1047,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/Splash\/viewModel\/QMSplashViewModel.swift",
       "kind": "StringLiteral",
       "offset": 763,
       "length": 17,
@@ -14676,70 +14964,84 @@
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/viewModel\/QMRewardedVideoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1985,
+      "offset": 1857,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/viewModel\/QMRewardedVideoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2040,
+      "offset": 2073,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/viewModel\/QMRewardedVideoViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2128,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/viewModel\/QMRewardedVideoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2095,
+      "offset": 2183,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/viewModel\/QMRewardedVideoViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2260,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/viewModel\/QMRewardedVideoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4536,
+      "offset": 4665,
       "length": 9,
       "value": "\"qm_logo\""
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/viewModel\/QMRewardedVideoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4639,
+      "offset": 4768,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/viewModel\/QMRewardedVideoViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4691,
+      "offset": 4820,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/viewModel\/QMRewardedVideoViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4703,
+      "offset": 4832,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/viewModel\/QMRewardedVideoViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 4717,
+      "offset": 4846,
       "length": 4,
       "value": "-1.3"
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/viewModel\/QMRewardedVideoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4755,
+      "offset": 4884,
       "length": 24,
       "value": "\" 广告·\""
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/viewModel\/QMRewardedVideoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4778,
+      "offset": 4907,
       "length": 2,
       "value": "\"\""
     },
@@ -14753,7 +15055,7 @@
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Business\/RewardedVideo\/viewModel\/QMRewardedVideoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 10735,
+      "offset": 11583,
       "length": 30,
       "value": "\"QMRewardedVideoViewModelidfa\""
     },
@@ -15131,21 +15433,21 @@
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Util\/QMCrashReporter.swift",
       "kind": "StringLiteral",
-      "offset": 4522,
+      "offset": 4520,
       "length": 28,
       "value": "\"qm_crash_stack_report.json\""
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Util\/QMCrashReporter.swift",
       "kind": "StringLiteral",
-      "offset": 4579,
+      "offset": 4577,
       "length": 4,
       "value": "\"qm\""
     },
     {
       "filePath": "\/Users\/Donnie\/Documents\/QTT\/QM\/QMAdSDK\/QMAdSDK\/swift\/Util\/QMCrashReporter.swift",
       "kind": "StringLiteral",
-      "offset": 4612,
+      "offset": 4610,
       "length": 4,
       "value": "\"lr\""
     },

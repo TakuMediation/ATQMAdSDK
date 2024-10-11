@@ -378,7 +378,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) QMAdSDKConfi
 @property (nonatomic, copy) NSString * _Nullable longitude;
 /// 纬度
 @property (nonatomic, copy) NSString * _Nullable latitude;
-/// 是否可以嗅探安装列表 默认 YES
+/// 检查 Scheme 列表 默认 YES
 @property (nonatomic) BOOL canSniffingInstalls;
 /// 异常保护 默认 YES
 @property (nonatomic) BOOL exceptionGuard;
@@ -408,9 +408,6 @@ SWIFT_CLASS("_TtC7QMAdSDK14QMAdSDKManager")
 
 SWIFT_CLASS("_TtC7QMAdSDK15QMCrashReporter")
 @interface QMCrashReporter : NSObject
-/// 异常拦截
-/// \param reportBlock 异常信息，堆栈信息
-///
 + (void)setAbnormalReportCallback:(void (^ _Nonnull)(NSString * _Nonnull, NSArray<NSString *> * _Nonnull))reportBlock;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -478,6 +475,8 @@ SWIFT_CLASS("_TtC7QMAdSDK7QMImage")
 SWIFT_CLASS("_TtC7QMAdSDK16QMInterstitialAd")
 @interface QMInterstitialAd : NSObject
 @property (nonatomic, weak) id <QMInterstitialAdDelegate> _Nullable delegate;
+/// 广告点击自动关闭
+@property (nonatomic) BOOL adClickToCloseAutomatically;
 /// 单位：分
 @property (nonatomic, readonly) NSInteger ecpm SWIFT_DEPRECATED_MSG("Use meta.");
 /// 使用 controller present 落地页，默认获取当前window最上层控制器
@@ -623,6 +622,8 @@ SWIFT_CLASS("_TtC7QMAdSDK16QMNativeMaterial")
 SWIFT_CLASS("_TtC7QMAdSDK17QMRewardedVideoAd")
 @interface QMRewardedVideoAd : NSObject
 @property (nonatomic, weak) id <QMRewardedVideoAdDelegate> _Nullable delegate;
+/// 广告点击自动关闭
+@property (nonatomic) BOOL adClickToCloseAutomatically;
 /// 单位：分
 @property (nonatomic, readonly) NSInteger ecpm SWIFT_DEPRECATED_MSG("Use meta.");
 /// 使用 controller present 落地页，默认获取当前window最上层控制器
@@ -682,6 +683,8 @@ SWIFT_PROTOCOL("_TtP7QMAdSDK25QMRewardedVideoAdDelegate_")
 SWIFT_CLASS("_TtC7QMAdSDK10QMSplashAd")
 @interface QMSplashAd : NSObject
 @property (nonatomic, weak) id <QMSplashAdDelegate> _Nullable delegate;
+/// 广告点击自动关闭
+@property (nonatomic) BOOL adClickToCloseAutomatically;
 /// 单位：分
 @property (nonatomic, readonly) NSInteger ecpm SWIFT_DEPRECATED_MSG("Use meta.");
 /// 使用 controller present 落地页，默认获取当前window最上层控制器
